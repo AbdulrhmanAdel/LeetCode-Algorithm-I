@@ -1,5 +1,6 @@
 ﻿using System;
 using Algorithm_I.Day1;
+using Algorithm_I.Day2;
 
 namespace Algorithm_I
 {
@@ -7,9 +8,7 @@ namespace Algorithm_I
     {
         static void Main(string[] args)
         {
-            var binarySerach = new BinarySearch();
-
-            Console.WriteLine(binarySerach.Search(new[] {1, 2, 3, 4, 5, 6, 7, 8}, 8));
+            RotateArrayProblem.Run(new[] {-4,-1,0,3,10}, 33);
         }
     }
 }
