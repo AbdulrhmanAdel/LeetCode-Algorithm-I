@@ -1,6 +1,7 @@
 ﻿using System;
 using Algorithm_I.Day1;
 using Algorithm_I.Day2;
+using Algorithm_I.Day3;
 
 namespace Algorithm_I
 {
@@ -8,7 +9,7 @@ namespace Algorithm_I
     {
         static void Main(string[] args)
         {
-            RotateArrayProblem.Run(new[] {-4,-1,0,3,10}, 33);
+            TwoSumArrayIIProblem.Run(new[] {2,7,11,15}, 9);
         }
     }
 }
