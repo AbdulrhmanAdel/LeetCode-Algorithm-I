@@ -2,6 +2,7 @@
 using Algorithm_I.Day1;
 using Algorithm_I.Day2;
 using Algorithm_I.Day3;
+using Algorithm_I.Day4;
 
 namespace Algorithm_I
 {
@@ -9,7 +10,8 @@ namespace Algorithm_I
     {
         static void Main(string[] args)
         {
-            TwoSumArrayIIProblem.Run(new[] {2,7,11,15}, 9);
+            Console.WriteLine(ReverseWordsProblem.Run("Let's take LeetCode contest") + "||");
+            ;
         }
     }
 }
