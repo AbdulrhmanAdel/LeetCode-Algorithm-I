@@ -5,6 +5,7 @@ using Algorithm_I.Day3;
 using Algorithm_I.Day4;
 using Algorithm_I.Day6;
 using Algorithm_I.Day7;
+using Algorithm_I.Day9;
 
 namespace Algorithm_I
 {
@@ -12,16 +13,18 @@ namespace Algorithm_I
     {
         static void Main(string[] args)
         {
-            MaxAreaOfIslandProblem.Run(new int[][]
+            RottingOrangesProblem.Run(new int[][]
             {
-                new [] {0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
-                new [] {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-                new [] {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
-                new [] {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
-                new [] {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
-                new [] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
-                new [] {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
-                new [] {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}
+                new int[] {1, 1, 0, 0, 1, 0, 0, 1, 1, 0},
+                new int[] {1, 0, 0, 1, 0, 1, 1, 1, 1, 1},
+                new int[] {1, 1, 1, 0, 0, 1, 1, 1, 1, 0},
+                new int[] {0, 1, 1, 1, 0, 1, 1, 1, 1, 1},
+                new int[] {0, 0, 1, 1, 1, 1, 1, 1, 1, 0},
+                new int[] {1, 1, 1, 1, 1, 1, 0, 1, 1, 1},
+                new int[] {0, 1, 1, 1, 1, 1, 1, 0, 0, 1},
+                new int[] {1, 1, 1, 1, 1, 0, 0, 1, 1, 1},
+                new int[] {0, 1, 0, 1, 1, 0, 1, 1, 1, 1},
+                new int[] {1, 1, 1, 0, 1, 0, 1, 1, 1, 1}
             });
         }
     }
